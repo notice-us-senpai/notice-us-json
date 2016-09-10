@@ -46,3 +46,8 @@ group :development do
 end
 
 gem 'rack-cors'
+
+# Use ActiveModelSerializers to serialize JSON responses
+gem 'active_model_serializers', '~> 0.10.0.rc1'
+
+gem 'rails-api'
